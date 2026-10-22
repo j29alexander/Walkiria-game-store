@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Walkiria Game Store, tu tienda gamer favorita.">
+    <title>Walkiria Game Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#inicio" class="logo">
+            <span class="logo-icon">🎮</span>
+            <span>
+                <strong>Walkiria</strong>
+                <small>GAMING STORE</small>
+            </span>
+        </a>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+        </nav>
+
+        <button id="btnCarrito" class="cart-button">
+            🛒 Carrito (<span id="contador">0</span>)
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="eyebrow">TU MUNDO GAMER, A TU ESTILO</span>
+                <h1>Juega con estilo.<br>
+                    <span>Brilla sin límites.</span>
+                </h1>
+                <p>
+                    Descubre consolas, accesorios y productos gamer
+                    para llevar tu experiencia al siguiente nivel.
+                </p>
+                <a href="#productos" class="btn-primary">
+                    Explorar productos →
+                </a>
+            </div>
+            <div class="hero-decoration">♡</div>
+        </section>
+
+        <section class="products-section" id="productos">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">NUESTROS FAVORITOS</span>
+                    <h2>Productos destacados</h2>
+                </div>
+                <p>Elige tus próximos favoritos ✨</p>
+            </div>
+
+            <div class="products-grid" id="listaProductos"></div>
+        </section>
+
+        <section class="features" id="nosotros">
+            <article>
+                <span>🚚</span>
+                <h3>Envíos seguros</h3>
+                <p>Compra con tranquilidad.</p>
+            </article>
+            <article>
+                <span>💳</span>
+                <h3>Pagos confiables</h3>
+                <p>Una experiencia sencilla.</p>
+            </article>
+            <article>
+                <span>💗</span>
+                <h3>Atención personalizada</h3>
+                <p>Estamos aquí para ayudarte.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#inicio" class="footer-logo">Walkiria ♡</a>
+        <p>© 2026 Walkiria Game Store</p>
+        <p>Hecho con 💗 para gamers.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
